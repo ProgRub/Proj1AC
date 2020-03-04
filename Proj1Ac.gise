@@ -21,8 +21,72 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Proj1AC.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ROM_Descodificacao.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ROM_Descodificacao.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ROM_Descodificacao.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestROM_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestROM_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TestROM_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1583333557" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1583333557">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1583334458" xil_pn:in_ck="-5884312316331901836" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1583334458">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ProgramCounter.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="ROM_Descodificacao.vhd"/>
+      <outfile xil_pn:name="TestROM.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1583334052" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5498607247265747772" xil_pn:start_ts="1583334052">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1583334052" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8137239798504915106" xil_pn:start_ts="1583334052">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1583333557" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6581788445515923401" xil_pn:start_ts="1583333557">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1583334458" xil_pn:in_ck="-5884312316331901836" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1583334458">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ProgramCounter.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="ROM_Descodificacao.vhd"/>
+      <outfile xil_pn:name="TestROM.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1583334461" xil_pn:in_ck="-5884312316331901836" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="271204466488438584" xil_pn:start_ts="1583334458">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TestROM_beh.prj"/>
+      <outfile xil_pn:name="TestROM_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1583334461" xil_pn:in_ck="-921456430611449123" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7516789098433731547" xil_pn:start_ts="1583334461">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TestROM_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
 
 </generated_project>
