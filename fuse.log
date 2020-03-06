@@ -1,18 +1,45 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/35196/Desktop/Proj1AC/Test_Comp_isim_beh.exe -prj C:/Users/35196/Desktop/Proj1AC/Test_Comp_beh.prj work.Test_Comp 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/35196/Desktop/Proj1AC/Test_Proc_isim_beh.exe -prj C:/Users/35196/Desktop/Proj1AC/Test_Proc_beh.prj work.Test_Proc 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/ROM_Descodificacao.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/RegistosA_B.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/ProgramCounter.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Periferico_Saida.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Periferico_Entrada.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Mux_Registos.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Mux_PC.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Memoria_Instrucoes.vhd" into library work
 Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Comparacao.vhd" into library work
-Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Test_Comp.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Processador.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Test_Proc.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity Periferico_Entrada [periferico_entrada_default]
+Compiling architecture behavioral of entity Periferico_Saida [periferico_saida_default]
+Compiling architecture behavioral of entity Mux_PC [mux_pc_default]
+Compiling architecture behavioral of entity ProgramCounter [programcounter_default]
 Compiling architecture behavioral of entity Comparacao [comparacao_default]
-Compiling architecture behavior of entity test_comp
+Compiling architecture behavioral of entity Memoria_Instrucoes [memoria_instrucoes_default]
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture behavioral of entity Mux_Registos [mux_registos_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity RegistosAeB [registosaeb_default]
+Compiling architecture behavioral of entity ROM_Descodificacao [rom_descodificacao_default]
+Compiling architecture struct of entity Processador [processador_default]
+Compiling architecture behavior of entity test_proc
 Time Resolution for simulation is 1ps.
-Compiled 5 VHDL Units
-Built simulation executable C:/Users/35196/Desktop/Proj1AC/Test_Comp_isim_beh.exe
-Fuse Memory Usage: 29400 KB
-Fuse CPU Usage: 328 ms
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable C:/Users/35196/Desktop/Proj1AC/Test_Proc_isim_beh.exe
+Fuse Memory Usage: 37544 KB
+Fuse CPU Usage: 578 ms

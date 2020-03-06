@@ -19,9 +19,9 @@ entity Comparacao is
 end Comparacao;
 
 architecture Behavioral of Comparacao is
-signal mem : STD_LOGIC_VECTOR (4 downto 0);
 begin
-process (Clk, Sel_Comp)
+process (Clk, Sel_Comp, Comp_Flag, Comp_Res)
+variable mem : STD_LOGIC_VECTOR (4 downto 0);
 begin
 case Sel_Comp is
 	when "000" => S_Flag <= mem(0);
@@ -31,8 +31,10 @@ case Sel_Comp is
 	when "100" => S_Flag <= mem(4);
 	when others => S_Flag <= 'X';
 end case;
-if rising_edge (Clk) and Comp_Flag = '1' then
-		mem <= Comp_Res;
+if rising_edge (Clk)  then
+		if Comp_Flag = '1' then
+			mem := Comp_Res;
+		end if;
 end if;
 end process;
 
