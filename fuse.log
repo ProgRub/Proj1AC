@@ -1,4 +1,4 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/35196/Desktop/Proj1AC/Test_Proc_isim_beh.exe -prj C:/Users/35196/Desktop/Proj1AC/Test_Proc_beh.prj work.Test_Proc 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/35196/Desktop/Proj1AC/Teste_PlacaMae_isim_beh.exe -prj C:/Users/35196/Desktop/Proj1AC/Teste_PlacaMae_beh.prj work.Teste_PlacaMae 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
@@ -12,12 +12,16 @@ Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Mux_Registos.vhd" into library
 Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Mux_PC.vhd" into library work
 Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Comparacao.vhd" into library work
 Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/RAM.vhd" into library work
 Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Processador.vhd" into library work
-Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Test_Proc.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Memoria_Instrucoes.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/PlacaMae.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Teste_PlacaMae.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
+Compiling package numeric_std
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
 Compiling package std_logic_signed
@@ -31,10 +35,13 @@ Compiling architecture behavioral of entity ALU [alu_default]
 Compiling architecture behavioral of entity RegistosAeB [registosaeb_default]
 Compiling architecture behavioral of entity ROM_Descodificacao [rom_descodificacao_default]
 Compiling architecture struct of entity Processador [processador_default]
-Compiling architecture behavior of entity test_proc
+Compiling architecture behavioral of entity Memoria_Instrucoes [memoria_instrucoes_default]
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture struct of entity PlacaMae [placamae_default]
+Compiling architecture behavior of entity teste_placamae
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 26 VHDL Units
-Built simulation executable C:/Users/35196/Desktop/Proj1AC/Test_Proc_isim_beh.exe
-Fuse Memory Usage: 35168 KB
-Fuse CPU Usage: 467 ms
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 33 VHDL Units
+Built simulation executable C:/Users/35196/Desktop/Proj1AC/Teste_PlacaMae_isim_beh.exe
+Fuse Memory Usage: 37552 KB
+Fuse CPU Usage: 1015 ms

@@ -1,0 +1,29 @@
+Command line:
+   Teste_PlacaMae_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56165
+
+Sat Mar 07 11:41:20 2020
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5164.36 Meg
+
+ Total Signals          : 121
+ Total Nets             : 2253
+ Total Signal Drivers   : 38
+ Total Blocks           : 19
+ Total Primitive Blocks : 16
+ Total Processes        : 26
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 2755
+Total Line Count : 149
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 5007.08 Meg
+
+Sat Mar 07 11:42:30 2020
+

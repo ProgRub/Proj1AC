@@ -1,0 +1,93 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/35196/Desktop/Proj1AC/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/35196/Desktop/Proj1AC/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: PlacaMae.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\ROM_Descodificacao.vhd" into library work
+Parsing entity <ROM_Descodificacao>.
+Parsing architecture <Behavioral> of entity <rom_descodificacao>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\RegistosA_B.vhd" into library work
+Parsing entity <RegistosAeB>.
+Parsing architecture <Behavioral> of entity <registosaeb>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\ProgramCounter.vhd" into library work
+Parsing entity <ProgramCounter>.
+Parsing architecture <Behavioral> of entity <programcounter>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\Periferico_Saida.vhd" into library work
+Parsing entity <Periferico_Saida>.
+Parsing architecture <Behavioral> of entity <periferico_saida>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\Periferico_Entrada.vhd" into library work
+Parsing entity <Periferico_Entrada>.
+Parsing architecture <Behavioral> of entity <periferico_entrada>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\Mux_Registos.vhd" into library work
+Parsing entity <Mux_Registos>.
+Parsing architecture <Behavioral> of entity <mux_registos>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\Mux_PC.vhd" into library work
+Parsing entity <Mux_PC>.
+Parsing architecture <Behavioral> of entity <mux_pc>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\Comparacao.vhd" into library work
+Parsing entity <Comparacao>.
+Parsing architecture <Behavioral> of entity <comparacao>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\ALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\RAM.vhd" into library work
+Parsing entity <RAM>.
+Parsing architecture <Behavioral> of entity <ram>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\Processador.vhd" into library work
+Parsing entity <Processador>.
+Parsing architecture <Struct> of entity <processador>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\Memoria_Instrucoes.vhd" into library work
+Parsing entity <Memoria_Instrucoes>.
+Parsing architecture <Behavioral> of entity <memoria_instrucoes>.
+Parsing VHDL file "C:\Users\35196\Desktop\Proj1AC\PlacaMae.vhd" into library work
+Parsing entity <PlacaMae>.
+Parsing architecture <Struct> of entity <placamae>.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.91 secs
+ 
+--> 
+
+Total memory usage is 4503964 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
