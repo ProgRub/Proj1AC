@@ -14,7 +14,8 @@ entity Processador is
     Port ( Pin,Dados_M, Const : in  STD_LOGIC_VECTOR (7 downto 0);
            Clk, Reset, Sel_R : in  STD_LOGIC;
            Opcode : in  STD_LOGIC_VECTOR (4 downto 0);
-           Pout, Endereco, Op1,Const_Out : out  STD_LOGIC_VECTOR (7 downto 0);
+           Pout, Endereco, Op1,Const_Out, ResulALU, Op2 : out  STD_LOGIC_VECTOR (7 downto 0);
+			  ResComp : out  STD_LOGIC_VECTOR (4 downto 0);
 			  WR : out STD_LOGIC);
 end Processador;
 
@@ -92,7 +93,7 @@ Component ALU is
 end Component;
 
 signal escrPerifs,escrPC, S_Flag, Compa_Flag,Select_Reg,Escreve_Reg: STD_LOGIC;
-signal DadosPIN, Ope1,Op2, ResultadoALU,Dados_REG: STD_LOGIC_VECTOR (7 downto 0);
+signal DadosPIN, Ope1,Ope2, ResultadoALU,Dados_REG: STD_LOGIC_VECTOR (7 downto 0);
 signal Selec_PC, Selec_Comp, Selec_ALU : STD_LOGIC_VECTOR (2 downto 0);
 signal Sel_Data : STD_LOGIC_VECTOR (1 downto 0);
 signal Resultado_Comparacao : STD_LOGIC_VECTOR (4 downto 0);
@@ -103,10 +104,14 @@ Multiplexer_PC: Mux_PC Port Map(S_Flag,Ope1,Selec_PC,escrPC);
 PC: ProgramCounter Port Map(Const,escrPC,Clk, Reset, Endereco);
 Comp: Comparacao Port Map(Resultado_Comparacao,Compa_Flag,Clk,Selec_Comp,S_Flag);
 MUX_Reg: Mux_Registos Port Map(ResultadoALU,DadosPIN,Dados_M,Const,Sel_Data,Dados_REG);
-ArithLU: ALU Port Map(Ope1,Op2,Selec_ALU,ResultadoALU,Resultado_Comparacao);
-RegAeB: RegistosAeB Port Map(Escreve_Reg,Dados_REG,Sel_R,Clk,Ope1,Op2);
+ArithLU: ALU Port Map(Ope1,Ope2,Selec_ALU,ResultadoALU,Resultado_Comparacao);
+RegAeB: RegistosAeB Port Map(Escreve_Reg,Dados_REG,Sel_R,Clk,Ope1,Ope2);
 ROM_Decode: ROM_Descodificacao Port Map(Opcode,Selec_ALU,escrPerifs,Sel_Data,Escreve_Reg,WR,Selec_PC,Compa_Flag,Selec_Comp);
 Op1 <= Ope1;
+Const_Out <= Const;
+ResulALU <= ResultadoALU;
+Op2 <= Ope2;
+ResComp <= Resultado_Comparacao;
 
 end Struct;
 

@@ -35,7 +35,7 @@ char *ieee_p_2592010699_sub_1735675855_503743352(char *, char *, char *, char *,
 char *ieee_p_2592010699_sub_795620321_503743352(char *, char *, char *, char *, char *, char *);
 
 
-static void work_a_0832606739_3212880686_p_0(char *t0)
+static void work_a_2725559894_3212880686_p_0(char *t0)
 {
     char t20[16];
     char *t1;
@@ -393,9 +393,9 @@ LAB33:    xsi_set_current_line(38, ng0);
 }
 
 
-extern void work_a_0832606739_3212880686_init()
+extern void work_a_2725559894_3212880686_init()
 {
-	static char *pe[] = {(void *)work_a_0832606739_3212880686_p_0};
-	xsi_register_didat("work_a_0832606739_3212880686", "isim/Test_Proc_isim_beh.exe.sim/work/a_0832606739_3212880686.didat");
+	static char *pe[] = {(void *)work_a_2725559894_3212880686_p_0};
+	xsi_register_didat("work_a_2725559894_3212880686", "isim/ALU_isim_beh.exe.sim/work/a_2725559894_3212880686.didat");
 	xsi_register_executes(pe);
 }

@@ -35,7 +35,7 @@ begin
 								
 								if (Operando1 < Operando2)
 									then
-										Comp_Res <= (4 => '1', others => '0');
+										Comp_Res <= (4 => '1',3 => '1', others => '0');
 								end if;
 				when others => Comp_Res <= (others => 'X'); Resultado <= (others => 'X');
 			end case;
