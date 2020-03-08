@@ -118,7 +118,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1583670652" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1583670652">
+    <transform xil_pn:end_ts="1583678495" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1583678494">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.vhd"/>
@@ -156,7 +156,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1583670652" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1583670652">
+    <transform xil_pn:end_ts="1583678495" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1583678495">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.vhd"/>
@@ -182,11 +182,9 @@
       <outfile xil_pn:name="TesteRAM.vhd"/>
       <outfile xil_pn:name="Teste_PlacaMae.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1583670655" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1412082213506066932" xil_pn:start_ts="1583670652">
+    <transform xil_pn:end_ts="1583678502" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1412082213506066932" xil_pn:start_ts="1583678495">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Teste_PlacaMae_beh.prj"/>
       <outfile xil_pn:name="Teste_PlacaMae_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -194,11 +192,9 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1583670656" xil_pn:in_ck="3762574968603995435" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5189603743171806759" xil_pn:start_ts="1583670655">
+    <transform xil_pn:end_ts="1583678502" xil_pn:in_ck="3762574968603995435" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5189603743171806759" xil_pn:start_ts="1583678502">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Teste_PlacaMae_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
