@@ -14,7 +14,7 @@ entity PlacaMae is
     Port ( Pin : in  STD_LOGIC_VECTOR (7 downto 0);
            Clk : in  STD_LOGIC;
            Reset : in  STD_LOGIC;
-           Pout, Endereco, Op1,Const_Out, ResulALU, Op2 : out  STD_LOGIC_VECTOR (7 downto 0);
+           Pout, Endereco, Op1,Const_Out, ResulALU, Op2,Dados_Memoria : out  STD_LOGIC_VECTOR (7 downto 0);
 			  ResComp : out  STD_LOGIC_VECTOR (4 downto 0);
 			  WR : out STD_LOGIC);
 end PlacaMae;
@@ -53,6 +53,7 @@ WR <= WriteRead;
 Op1 <= Operando1;
 Endereco <= Instrucao;
 Const_Out <= Const;
+Dados_Memoria <= Dados_Mem;
 
 end Struct;
 

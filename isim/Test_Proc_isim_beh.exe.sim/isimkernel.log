@@ -1,15 +1,15 @@
 Command line:
    Test_Proc_isim_beh.exe
      -simmode  gui
-     -simrunnum  0
-     -socket  55662
+     -simrunnum  1
+     -socket  64823
 
-Sat Mar 07 10:53:33 2020
+Sun Mar 08 12:24:21 2020
 
 
  Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 5160.02 Meg
+ Current Memory Usage: 5160.01 Meg
 
  Total Signals          : 96
  Total Nets             : 172
@@ -21,9 +21,9 @@ Sat Mar 07 10:53:33 2020
  Total Scalar Nets and Variables : 551
 Total Line Count : 140
 
- Total Simulation Time: 0.515625 sec
+ Total Simulation Time: 0.796875 sec
 
- Current Memory Usage: 5002.74 Meg
+ Current Memory Usage: 5002.72 Meg
 
-Sat Mar 07 10:56:54 2020
+Sun Mar 08 12:26:35 2020
 

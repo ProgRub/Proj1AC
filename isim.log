@@ -15,4 +15,8 @@ Finished circuit initialization process.
 at 0 ps, Instance /teste_placamae/uut/Mem_Dados/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 110 ns(4), Instance /teste_placamae/uut/Mem_Dados/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 170 ns(4), Instance /teste_placamae/uut/Mem_Dados/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 210 ns(4), Instance /teste_placamae/uut/Mem_Dados/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 290 ns(4), Instance /teste_placamae/uut/Mem_Dados/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 390 ns(4), Instance /teste_placamae/uut/Mem_Dados/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 490 ns(4), Instance /teste_placamae/uut/Mem_Dados/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 590 ns(4), Instance /teste_placamae/uut/Mem_Dados/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 690 ns(4), Instance /teste_placamae/uut/Mem_Dados/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0

@@ -23,6 +23,7 @@ ARCHITECTURE behavior OF Teste_PlacaMae IS
          Const_Out : OUT  std_logic_vector(7 downto 0);
          ResulALU : OUT  std_logic_vector(7 downto 0);
          Op2 : OUT  std_logic_vector(7 downto 0);
+         Dados_Memoria : OUT  std_logic_vector(7 downto 0);			
          ResComp : OUT  std_logic_vector(4 downto 0);
          WR : OUT  std_logic
         );
@@ -43,6 +44,7 @@ ARCHITECTURE behavior OF Teste_PlacaMae IS
    signal Op2 : std_logic_vector(7 downto 0);
    signal ResComp : std_logic_vector(4 downto 0);
    signal WR : std_logic;
+   signal Dados_Memoria : std_logic_vector(7 downto 0);		
 
    -- Clock period definitions
    constant Clk_period : time := 20 ns;
@@ -61,7 +63,8 @@ BEGIN
           ResulALU => ResulALU,
           Op2 => Op2,
           ResComp => ResComp,
-          WR => WR
+          WR => WR,
+			 Dados_Memoria => Dados_Memoria
         );
 
    -- Clock process definitions
@@ -79,7 +82,7 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
 		Reset <= '1'; wait for Clk_period*2;
-		Reset <= '0'; Pin <= "10000110"; wait for Clk_period*50;
+		Reset <= '0'; Pin <= "00000110"; wait for Clk_period*50;
 
       -- insert stimulus here 
 

@@ -26,7 +26,7 @@ if rising_edge(Clock) then
 	end if;
 end if;
 end process;
-	Dados_M<=Memoria(to_integer(Unsigned(Address)));
+Dados_M<=Memoria(to_integer(Unsigned(Address)));
 
 end Behavioral;
 

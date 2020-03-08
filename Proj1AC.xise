@@ -115,6 +115,12 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="108"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="108"/>
     </file>
+    <file xil_pn:name="TesteRAM.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="110"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="110"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="110"/>
+    </file>
   </files>
 
   <properties>

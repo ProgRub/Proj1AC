@@ -81,24 +81,25 @@ BEGIN
       -- hold reset state for 100 ns.
 		Reset<='1';
       wait for Clk_period*2;
-		Reset<='0';	Pin <= "00000010";
+		Reset<='0';	Pin <= "00000110";
+
 	Opcode <= "00010"; Sel_R <= '0'; Const <= "00000011"; Dados_M <= "00000000"; wait for Clk_period;
 	Opcode <= "00100"; Sel_R <= '0'; Const <= "00000000";	Dados_M <= "00000000"; wait for Clk_period;
 	Opcode <= "00010"; Sel_R <= '0'; Const <= "00010100";	Dados_M <= "00000000"; wait for Clk_period;
-	Opcode <= "00100"; Sel_R <= '0'; Const <= "00000001";	Dados_M <= "00000000"; wait for Clk_period;
-	Opcode <= "00000"; Sel_R <= '0'; Const <= "XXXXXXXX";	Dados_M <= "00000000"; wait for Clk_period;
+	Opcode <= "00100"; Sel_R <= '0'; Const <= "00000001";	Dados_M <= "00001111"; wait for Clk_period;
+	Opcode <= "00000"; Sel_R <= '0'; Const <= "XXXXXXXX";	Dados_M <= "00001111"; wait for Clk_period;
 
-	Opcode <= "10001"; Sel_R <= 'X'; Const <= "00010110";	Dados_M <= "00000000"; wait for Clk_period;
-	Opcode <= "00010"; Sel_R <= '1'; Const <= "01010000";	Dados_M <= "00000000"; wait for Clk_period;
-	Opcode <= "01010"; Sel_R <= 'X'; Const <= "XXXXXXXX";	Dados_M <= "00000000"; wait for Clk_period;
-	Opcode <= "01100"; Sel_R <= 'X'; Const <= "00011011";	Dados_M <= "00000000"; wait for Clk_period;
-	Opcode <= "00100"; Sel_R <= '0'; Const <= "00000010";	Dados_M <= "00000000"; wait for Clk_period;
+	Opcode <= "10001"; Sel_R <= 'X'; Const <= "00010110";	Dados_M <= "00001111"; wait for Clk_period;
+	Opcode <= "00010"; Sel_R <= '1'; Const <= "01010000";	Dados_M <= "00001111"; wait for Clk_period;
+	Opcode <= "01010"; Sel_R <= 'X'; Const <= "XXXXXXXX";	Dados_M <= "00001111"; wait for Clk_period;
+	Opcode <= "01100"; Sel_R <= 'X'; Const <= "00011011";	Dados_M <= "00001111"; wait for Clk_period;
+	Opcode <= "00100"; Sel_R <= '0'; Const <= "00000010";	Dados_M <= "00001111"; wait for Clk_period;
 	
-	Opcode <= "00100"; Sel_R <= '0'; Const <= "00000011";	Dados_M <= "00000000"; wait for Clk_period;
-	Opcode <= "00010"; Sel_R <= '0'; Const <= "00000000";	Dados_M <= "00000000"; wait for Clk_period;
-	Opcode <= "00010"; Sel_R <= '1'; Const <= "00000001";	Dados_M <= "00000000"; wait for Clk_period;
-	Opcode <= "00110"; Sel_R <= '0'; Const <= "XXXXXXXX";	Dados_M <= "00000000"; wait for Clk_period;
-	Opcode <= "10010"; Sel_R <= 'X'; Const <= "00010100";	Dados_M <= "00000000"; wait for Clk_period;
+	Opcode <= "00100"; Sel_R <= '0'; Const <= "00000011";	Dados_M <= "00001111"; wait for Clk_period;
+	Opcode <= "00011"; Sel_R <= '0'; Const <= "00000000";	Dados_M <= "00001111"; wait for Clk_period;
+	Opcode <= "00010"; Sel_R <= '1'; Const <= "00000001";	Dados_M <= "00001111"; wait for Clk_period;
+	Opcode <= "00110"; Sel_R <= '0'; Const <= "XXXXXXXX";	Dados_M <= "00001111"; wait for Clk_period;
+	Opcode <= "10010"; Sel_R <= 'X'; Const <= "00010100";	Dados_M <= "00001111"; wait for Clk_period;
 	
 	Opcode <= "00100"; Sel_R <= '0'; Const <= "00000000";	Dados_M <= "00000000"; wait for Clk_period;
 	Opcode <= "00011"; Sel_R <= '0'; Const <= "00000011";	Dados_M <= "00000000"; wait for Clk_period;

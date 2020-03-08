@@ -92,6 +92,7 @@
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Test_Comp_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_MuxRegistos_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Test_Proc_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TesteRAM_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TesteRegistos_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Teste_PlacaMae_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Teste_PlacaMae_isim_beh.exe"/>
@@ -113,48 +114,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1583580856" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1583580856">
+    <transform xil_pn:end_ts="1583670652" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1583670652">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1583581271" xil_pn:in_ck="-8781558554887257450" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1583581271">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="ALU.vhd"/>
-      <outfile xil_pn:name="Comparacao.vhd"/>
-      <outfile xil_pn:name="Memoria_Instrucoes.vhd"/>
-      <outfile xil_pn:name="Mux_PC.vhd"/>
-      <outfile xil_pn:name="Mux_Registos.vhd"/>
-      <outfile xil_pn:name="Periferico_Entrada.vhd"/>
-      <outfile xil_pn:name="Periferico_Saida.vhd"/>
-      <outfile xil_pn:name="PlacaMae.vhd"/>
-      <outfile xil_pn:name="Processador.vhd"/>
-      <outfile xil_pn:name="ProgramCounter.vhd"/>
-      <outfile xil_pn:name="RAM.vhd"/>
-      <outfile xil_pn:name="ROM_Descodificacao.vhd"/>
-      <outfile xil_pn:name="RegistosA_B.vhd"/>
-      <outfile xil_pn:name="TestPerifSaida.vhd"/>
-      <outfile xil_pn:name="TestROM.vhd"/>
-      <outfile xil_pn:name="TestRegistosA_B.vhd"/>
-      <outfile xil_pn:name="Test_Comp.vhd"/>
-      <outfile xil_pn:name="Test_MuxRegistos.vhd"/>
-      <outfile xil_pn:name="Test_Proc.vhd"/>
-      <outfile xil_pn:name="TesteALU.vhd"/>
-      <outfile xil_pn:name="Teste_PlacaMae.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1583580856" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7045028208691950670" xil_pn:start_ts="1583580856">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1583580856" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6619975488391174356" xil_pn:start_ts="1583580856">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1583580856" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4767011057929872091" xil_pn:start_ts="1583580856">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1583581271" xil_pn:in_ck="-8781558554887257450" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1583581271">
+    <transform xil_pn:end_ts="1583670652" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1583670652">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.vhd"/>
@@ -177,9 +141,48 @@
       <outfile xil_pn:name="Test_MuxRegistos.vhd"/>
       <outfile xil_pn:name="Test_Proc.vhd"/>
       <outfile xil_pn:name="TesteALU.vhd"/>
+      <outfile xil_pn:name="TesteRAM.vhd"/>
       <outfile xil_pn:name="Teste_PlacaMae.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1583581277" xil_pn:in_ck="-8781558554887257450" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1412082213506066932" xil_pn:start_ts="1583581271">
+    <transform xil_pn:end_ts="1583670652" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7045028208691950670" xil_pn:start_ts="1583670652">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1583670652" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6619975488391174356" xil_pn:start_ts="1583670652">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1583670652" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4767011057929872091" xil_pn:start_ts="1583670652">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1583670652" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1583670652">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="Comparacao.vhd"/>
+      <outfile xil_pn:name="Memoria_Instrucoes.vhd"/>
+      <outfile xil_pn:name="Mux_PC.vhd"/>
+      <outfile xil_pn:name="Mux_Registos.vhd"/>
+      <outfile xil_pn:name="Periferico_Entrada.vhd"/>
+      <outfile xil_pn:name="Periferico_Saida.vhd"/>
+      <outfile xil_pn:name="PlacaMae.vhd"/>
+      <outfile xil_pn:name="Processador.vhd"/>
+      <outfile xil_pn:name="ProgramCounter.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="ROM_Descodificacao.vhd"/>
+      <outfile xil_pn:name="RegistosA_B.vhd"/>
+      <outfile xil_pn:name="TestPerifSaida.vhd"/>
+      <outfile xil_pn:name="TestROM.vhd"/>
+      <outfile xil_pn:name="TestRegistosA_B.vhd"/>
+      <outfile xil_pn:name="Test_Comp.vhd"/>
+      <outfile xil_pn:name="Test_MuxRegistos.vhd"/>
+      <outfile xil_pn:name="Test_Proc.vhd"/>
+      <outfile xil_pn:name="TesteALU.vhd"/>
+      <outfile xil_pn:name="TesteRAM.vhd"/>
+      <outfile xil_pn:name="Teste_PlacaMae.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1583670655" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1412082213506066932" xil_pn:start_ts="1583670652">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -191,7 +194,7 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1583581278" xil_pn:in_ck="1018407276436388983" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5189603743171806759" xil_pn:start_ts="1583581277">
+    <transform xil_pn:end_ts="1583670656" xil_pn:in_ck="3762574968603995435" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5189603743171806759" xil_pn:start_ts="1583670655">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
