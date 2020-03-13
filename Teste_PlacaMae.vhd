@@ -17,15 +17,15 @@ ARCHITECTURE behavior OF Teste_PlacaMae IS
          Pin : IN  std_logic_vector(7 downto 0);
          Clk : IN  std_logic;
          Reset : IN  std_logic;
-         Pout : OUT  std_logic_vector(7 downto 0);
-         Endereco : OUT  std_logic_vector(7 downto 0);
-         Op1 : OUT  std_logic_vector(7 downto 0);
-         Const_Out : OUT  std_logic_vector(7 downto 0);
-         ResulALU : OUT  std_logic_vector(7 downto 0);
-         Op2 : OUT  std_logic_vector(7 downto 0);
-         Dados_Memoria : OUT  std_logic_vector(7 downto 0);			
-         ResComp : OUT  std_logic_vector(4 downto 0);
-         WR : OUT  std_logic
+         Pout : OUT  std_logic_vector(7 downto 0)
+         --Endereco : OUT  std_logic_vector(7 downto 0);
+         --Op1 : OUT  std_logic_vector(7 downto 0);
+         --Const_Out : OUT  std_logic_vector(7 downto 0);
+         --ResulALU : OUT  std_logic_vector(7 downto 0);
+         --Op2 : OUT  std_logic_vector(7 downto 0);
+         --Dados_Memoria : OUT  std_logic_vector(7 downto 0);			
+         --ResComp : OUT  std_logic_vector(4 downto 0);
+         --WR : OUT  std_logic
         );
     END COMPONENT;
     
@@ -37,14 +37,14 @@ ARCHITECTURE behavior OF Teste_PlacaMae IS
 
  	--Outputs
    signal Pout : std_logic_vector(7 downto 0);
-   signal Endereco : std_logic_vector(7 downto 0);
-   signal Op1 : std_logic_vector(7 downto 0);
-   signal Const_Out : std_logic_vector(7 downto 0);
-   signal ResulALU : std_logic_vector(7 downto 0);
-   signal Op2 : std_logic_vector(7 downto 0);
-   signal ResComp : std_logic_vector(4 downto 0);
-   signal WR : std_logic;
-   signal Dados_Memoria : std_logic_vector(7 downto 0);		
+   --signal Endereco : std_logic_vector(7 downto 0);
+   --signal Op1 : std_logic_vector(7 downto 0);
+   --signal Const_Out : std_logic_vector(7 downto 0);
+   --signal ResulALU : std_logic_vector(7 downto 0);
+   --signal Op2 : std_logic_vector(7 downto 0);
+   --signal ResComp : std_logic_vector(4 downto 0);
+   --signal WR : std_logic;
+   --signal Dados_Memoria : std_logic_vector(7 downto 0);		
 
    -- Clock period definitions
    constant Clk_period : time := 20 ns;
@@ -56,15 +56,15 @@ BEGIN
           Pin => Pin,
           Clk => Clk,
           Reset => Reset,
-          Pout => Pout,
-          Endereco => Endereco,
-          Op1 => Op1,
-          Const_Out => Const_Out,
-          ResulALU => ResulALU,
-          Op2 => Op2,
-          ResComp => ResComp,
-          WR => WR,
-			 Dados_Memoria => Dados_Memoria
+          Pout => Pout
+          --Endereco => Endereco,
+          --Op1 => Op1,
+          --Const_Out => Const_Out,
+          --ResulALU => ResulALU,
+          --Op2 => Op2,
+          --ResComp => ResComp,
+          --WR => WR,
+			 --Dados_Memoria => Dados_Memoria
         );
 
    -- Clock process definitions
@@ -82,7 +82,7 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
 		Reset <= '1'; wait for Clk_period*2;
-		Reset <= '0'; Pin <= "00000110"; wait for Clk_period*50;
+		Reset <= '0'; Pin <= "01111110"; wait for Clk_period*50;
 
       -- insert stimulus here 
 

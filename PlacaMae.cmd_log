@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/35196/Desktop/Proj1AC/PlacaMae.xst" -ofn "C:/Users/35196/Desktop/Proj1AC/PlacaMae.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PlacaMae.ucf -p xc3s500e-fg320-4 PlacaMae.ngc PlacaMae.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PlacaMae_map.ncd PlacaMae.ngd PlacaMae.pcf 
+par -w -intstyle ise -ol high -t 1 PlacaMae_map.ncd PlacaMae.ncd PlacaMae.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PlacaMae.twx PlacaMae.ncd -o PlacaMae.twr PlacaMae.pcf -ucf PlacaMae.ucf 
+bitgen -intstyle ise -f PlacaMae.ut PlacaMae.ncd 

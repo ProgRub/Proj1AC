@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/35196/Desktop/Proj1AC/Teste_PlacaMae_isim_beh.exe" -prj "C:/Users/35196/Desktop/Proj1AC/Teste_PlacaMae_beh.prj" "work.Teste_PlacaMae" 
+-intstyle "ise" -incremental -o "C:/Users/35196/Desktop/Proj1AC/Teste_PlacaMae_isim_beh.exe" -prj "C:/Users/35196/Desktop/Proj1AC/Teste_PlacaMae_beh.prj" "work.Teste_PlacaMae" 

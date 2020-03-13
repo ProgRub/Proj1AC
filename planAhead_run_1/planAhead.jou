@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 11 14:26:58 2020
+# Process ID: 9748
+# Log file: C:/Users/35196/Desktop/Proj1AC/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/35196/Desktop/Proj1AC/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/35196/Desktop/Proj1AC/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin D18 [get_ports {Pin[7]}]
+endgroup
+startgroup
+set_property package_pin V4 [get_ports {Pin[6]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {Pin[5]}]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports {Pin[4]}]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports {Pin[3]}]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports {Pin[2]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {Pin[1]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {Pin[0]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports Reset]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports Clk]
+endgroup
+startgroup
+set_property package_pin F9 [get_ports {Pout[7]}]
+endgroup
+startgroup
+set_property package_pin E9 [get_ports {Pout[6]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {Pout[5]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {Pout[4]}]
+endgroup
+startgroup
+set_property package_pin F11 [get_ports {Pout[3]}]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports {Pout[2]}]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports {Pout[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {Pout[0]}]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list {Pin[7]} {Pin[6]} {Pin[5]} {Pin[4]} {Pin[3]} {Pin[2]} {Pin[1]} {Pin[0]}]]
+set_property iostandard LVCMOS25 [get_ports [list {Pout[7]} {Pout[6]} {Pout[5]} {Pout[4]} {Pout[3]} {Pout[2]} {Pout[1]} {Pout[0]}]]
+set_property iostandard LVCMOS25 [get_ports [list Clk]]
+set_property iostandard LVCMOS25 [get_ports [list Reset]]
+save_constraints

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\35196\Desktop\Proj1AC\PlacaMae.ncd
+OUTFILE=C:\Users\35196\Desktop\Proj1AC\PlacaMae.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\35196\Desktop\Proj1AC
+LICENSE=WebPack
+USER_INFO=211816679_0_0_010

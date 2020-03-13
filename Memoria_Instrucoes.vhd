@@ -58,8 +58,8 @@ case Endereco is
 	when "00011010" => Opcode <= "10000"; Sel_R <= 'X'; Constante <= "00011101";
 	when "00011011" => Opcode <= "00011"; Sel_R <= '1'; Constante <= "00000001";
 	when "00011100" => Opcode <= "00110"; Sel_R <= '0'; Constante <= "XXXXXXXX";
-	when "00011101" => Opcode <= "10000"; Sel_R <= 'X'; Constante <= "00011101";
-	when "00011110" => Opcode <= "00001"; Sel_R <= '0'; Constante <= "XXXXXXXX";
+	when "00011101" => Opcode <= "00001"; Sel_R <= '0'; Constante <= "XXXXXXXX";
+	when "00011110" => Opcode <= "10000"; Sel_R <= 'X'; Constante <= "00011110";
 	
 	when others => Opcode <= "XXXXX"; Sel_R <= 'X'; Constante <= "XXXXXXXX";
 	
