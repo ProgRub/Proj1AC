@@ -1,0 +1,172 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Mar 13 09:44:26 2020
+# Process ID: 3912
+# Log file: C:/Users/35196/Desktop/Proj1AC/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/35196/Desktop/Proj1AC/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/35196/Desktop/Proj1AC/pa.fromHdl.tcl
+# create_project -name Proj1AC -dir "C:/Users/35196/Desktop/Proj1AC/planAhead_run_5" -part xc7a100tcsg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "PlacaMae.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/35196/Desktop/Proj1AC/PlacaMae.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {ROM_Descodificacao.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RegistosA_B.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ProgramCounter.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Periferico_Saida.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Periferico_Entrada.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Mux_Registos.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Mux_PC.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Comparacao.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RAM.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Processador.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Memoria_Instrucoes.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PlacaMae.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top PlacaMae $srcset
+# add_files [list {PlacaMae.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc7a100tcsg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/ROM_Descodificacao.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/RegistosA_B.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/ProgramCounter.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Periferico_Saida.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Periferico_Entrada.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Mux_Registos.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Mux_PC.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Comparacao.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Processador.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/Memoria_Instrucoes.vhd" into library work
+Parsing VHDL file "C:/Users/35196/Desktop/Proj1AC/PlacaMae.vhd" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [C:/Users/35196/Desktop/Proj1AC/PlacaMae.ucf]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site H18 [C:/Users/35196/Desktop/Proj1AC/PlacaMae.ucf:9]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site H13 [C:/Users/35196/Desktop/Proj1AC/PlacaMae.ucf:11]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site R4 [C:/Users/35196/Desktop/Proj1AC/PlacaMae.ucf:13]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site K14 [C:/Users/35196/Desktop/Proj1AC/PlacaMae.ucf:17]
+Finished Parsing UCF File [C:/Users/35196/Desktop/Proj1AC/PlacaMae.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: d28ed045
+open_rtl_design: Time (s): elapsed = 00:00:14 . Memory (MB): peak = 804.863 ; gain = 390.793
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS18 [get_ports [list {Pin[7]} {Pin[6]} {Pin[5]} {Pin[4]} {Pin[3]} {Pin[2]} {Pin[1]} {Pin[0]}]]
+set_property iostandard LVCMOS18 [get_ports [list {Pout[7]} {Pout[6]} {Pout[5]} {Pout[4]} {Pout[3]} {Pout[2]} {Pout[1]} {Pout[0]}]]
+set_property iostandard LVCMOS18 [get_ports [list Clk]]
+set_property iostandard LVCMOS18 [get_ports [list Reset]]
+startgroup
+set_property package_pin R13 [get_ports {Pin[7]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {Pin[6]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {Pin[5]}]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports {Pin[4]}]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports {Pin[3]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {Pin[2]}]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports {Pin[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Pout[1]}]]
+startgroup
+set_property package_pin J15 [get_ports {Pin[0]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {Pout[7]}]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports {Pout[6]}]
+endgroup
+startgroup
+set_property package_pin V17 [get_ports {Pout[5]}]
+endgroup
+startgroup
+set_property package_pin R1 [get_ports {Pout[4]}]
+endgroup
+startgroup
+set_property package_pin R18 [get_ports {Pout[4]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {Pout[3]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {Pout[2]}]
+endgroup
+startgroup
+set_property package_pin K15 [get_ports {Pout[1]}]
+endgroup
+startgroup
+set_property package_pin H17 [get_ports {Pout[0]}]
+endgroup
+startgroup
+set_property package_pin E3 [get_ports Clk]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports Reset]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/35196/Desktop/Proj1AC\planAhead_pid3912.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Mar 13 09:47:26 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

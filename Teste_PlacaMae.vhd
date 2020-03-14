@@ -78,11 +78,14 @@ BEGIN
  
 
    -- Stimulus process
+	--"11111110" JN -> -N
+	--"01111110" JGE -> N-20
+	--"00001111" N*3
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
 		Reset <= '1'; wait for Clk_period*2;
-		Reset <= '0'; Pin <= "01111110"; wait for Clk_period*50;
+		Reset <= '0'; Pin <= "11011000"; wait for Clk_period*50;
 
       -- insert stimulus here 
 

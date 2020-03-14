@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Mar 13 09:32:45 2020
+# Process ID: 10916
+# Log file: C:/Users/35196/Desktop/Proj1AC/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/35196/Desktop/Proj1AC/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/35196/Desktop/Proj1AC/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin H13 [get_ports Reset]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports Clk]
+endgroup
+save_constraints

@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Mar 13 09:44:26 2020
+# Process ID: 3912
+# Log file: C:/Users/35196/Desktop/Proj1AC/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/35196/Desktop/Proj1AC/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/35196/Desktop/Proj1AC/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS18 [get_ports [list {Pin[7]} {Pin[6]} {Pin[5]} {Pin[4]} {Pin[3]} {Pin[2]} {Pin[1]} {Pin[0]}]]
+set_property iostandard LVCMOS18 [get_ports [list {Pout[7]} {Pout[6]} {Pout[5]} {Pout[4]} {Pout[3]} {Pout[2]} {Pout[1]} {Pout[0]}]]
+set_property iostandard LVCMOS18 [get_ports [list Clk]]
+set_property iostandard LVCMOS18 [get_ports [list Reset]]
+startgroup
+set_property package_pin R13 [get_ports {Pin[7]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {Pin[6]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {Pin[5]}]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports {Pin[4]}]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports {Pin[3]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {Pin[2]}]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports {Pin[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Pout[1]}]]
+startgroup
+set_property package_pin J15 [get_ports {Pin[0]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {Pout[7]}]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports {Pout[6]}]
+endgroup
+startgroup
+set_property package_pin V17 [get_ports {Pout[5]}]
+endgroup
+startgroup
+set_property package_pin R1 [get_ports {Pout[4]}]
+endgroup
+startgroup
+set_property package_pin R18 [get_ports {Pout[4]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {Pout[3]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {Pout[2]}]
+endgroup
+startgroup
+set_property package_pin K15 [get_ports {Pout[1]}]
+endgroup
+startgroup
+set_property package_pin H17 [get_ports {Pout[0]}]
+endgroup
+startgroup
+set_property package_pin E3 [get_ports Clk]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports Reset]
+endgroup
+save_constraints

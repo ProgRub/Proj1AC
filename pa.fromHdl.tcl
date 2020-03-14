@@ -1,7 +1,7 @@
 
 # PlanAhead Launch Script for Pre-Synthesis Floorplanning, created by Project Navigator
 
-create_project -name Proj1AC -dir "C:/Users/35196/Desktop/Proj1AC/planAhead_run_3" -part xc3s500efg320-4
+create_project -name Proj1AC -dir "C:/Users/35196/Desktop/Proj1AC/planAhead_run_5" -part xc7a100tcsg324-3
 set_param project.pinAheadLayout yes
 set srcset [get_property srcset [current_run -impl]]
 set_property target_constrs_file "PlacaMae.ucf" [current_fileset -constrset]
@@ -46,4 +46,4 @@ set_property file_type VHDL $hdlfile
 set_property library work $hdlfile
 set_property top PlacaMae $srcset
 add_files [list {PlacaMae.ucf}] -fileset [get_property constrset [current_run]]
-open_rtl_design -part xc3s500efg320-4
+open_rtl_design -part xc7a100tcsg324-3

@@ -1,79 +1,79 @@
 V3 51
 FL C:/Users/35196/Desktop/Proj1AC/ALU.vhd 2020/03/07.10:44:36 P.20131013
-EN work/ALU 1583937092 FL C:/Users/35196/Desktop/Proj1AC/ALU.vhd \
+EN work/ALU 1584091736 FL C:/Users/35196/Desktop/Proj1AC/ALU.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_SIGNED 1381692178
-AR work/ALU/Behavioral 1583937093 \
-      FL C:/Users/35196/Desktop/Proj1AC/ALU.vhd EN work/ALU 1583937092
+AR work/ALU/Behavioral 1584091737 \
+      FL C:/Users/35196/Desktop/Proj1AC/ALU.vhd EN work/ALU 1584091736
 FL C:/Users/35196/Desktop/Proj1AC/Comparacao.vhd 2020/03/06.09:20:54 P.20131013
-EN work/Comparacao 1583937088 FL C:/Users/35196/Desktop/Proj1AC/Comparacao.vhd \
+EN work/Comparacao 1584091732 FL C:/Users/35196/Desktop/Proj1AC/Comparacao.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Comparacao/Behavioral 1583937089 \
-      FL C:/Users/35196/Desktop/Proj1AC/Comparacao.vhd EN work/Comparacao 1583937088
+AR work/Comparacao/Behavioral 1584091733 \
+      FL C:/Users/35196/Desktop/Proj1AC/Comparacao.vhd EN work/Comparacao 1584091732
 FL C:/Users/35196/Desktop/Proj1AC/Memoria_Instrucoes.vhd 2020/03/11.13:58:03 P.20131013
-EN work/Memoria_Instrucoes 1583937100 \
+EN work/Memoria_Instrucoes 1584091744 \
       FL C:/Users/35196/Desktop/Proj1AC/Memoria_Instrucoes.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Memoria_Instrucoes/Behavioral 1583937101 \
+AR work/Memoria_Instrucoes/Behavioral 1584091745 \
       FL C:/Users/35196/Desktop/Proj1AC/Memoria_Instrucoes.vhd \
-      EN work/Memoria_Instrucoes 1583937100
+      EN work/Memoria_Instrucoes 1584091744
 FL C:/Users/35196/Desktop/Proj1AC/Mux_PC.vhd 2020/03/05.17:08:24 P.20131013
-EN work/Mux_PC 1583937084 FL C:/Users/35196/Desktop/Proj1AC/Mux_PC.vhd \
+EN work/Mux_PC 1584091728 FL C:/Users/35196/Desktop/Proj1AC/Mux_PC.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Mux_PC/Behavioral 1583937085 \
-      FL C:/Users/35196/Desktop/Proj1AC/Mux_PC.vhd EN work/Mux_PC 1583937084
+AR work/Mux_PC/Behavioral 1584091729 \
+      FL C:/Users/35196/Desktop/Proj1AC/Mux_PC.vhd EN work/Mux_PC 1584091728
 FL C:/Users/35196/Desktop/Proj1AC/Mux_Registos.vhd 2020/03/04.17:05:47 P.20131013
-EN work/Mux_Registos 1583937090 \
+EN work/Mux_Registos 1584091734 \
       FL C:/Users/35196/Desktop/Proj1AC/Mux_Registos.vhd PB ieee/std_logic_1164 1381692176
-AR work/Mux_Registos/Behavioral 1583937091 \
-      FL C:/Users/35196/Desktop/Proj1AC/Mux_Registos.vhd EN work/Mux_Registos 1583937090
+AR work/Mux_Registos/Behavioral 1584091735 \
+      FL C:/Users/35196/Desktop/Proj1AC/Mux_Registos.vhd EN work/Mux_Registos 1584091734
 FL C:/Users/35196/Desktop/Proj1AC/Periferico_Entrada.vhd 2020/03/04.16:34:32 P.20131013
-EN work/Periferico_Entrada 1583937080 \
+EN work/Periferico_Entrada 1584091724 \
       FL C:/Users/35196/Desktop/Proj1AC/Periferico_Entrada.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Periferico_Entrada/Behavioral 1583937081 \
+AR work/Periferico_Entrada/Behavioral 1584091725 \
       FL C:/Users/35196/Desktop/Proj1AC/Periferico_Entrada.vhd \
-      EN work/Periferico_Entrada 1583937080
+      EN work/Periferico_Entrada 1584091724
 FL C:/Users/35196/Desktop/Proj1AC/Periferico_Saida.vhd 2020/03/04.17:05:47 P.20131013
-EN work/Periferico_Saida 1583937082 \
+EN work/Periferico_Saida 1584091726 \
       FL C:/Users/35196/Desktop/Proj1AC/Periferico_Saida.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Periferico_Saida/Behavioral 1583937083 \
+AR work/Periferico_Saida/Behavioral 1584091727 \
       FL C:/Users/35196/Desktop/Proj1AC/Periferico_Saida.vhd \
-      EN work/Periferico_Saida 1583937082
+      EN work/Periferico_Saida 1584091726
 FL C:/Users/35196/Desktop/Proj1AC/PlacaMae.vhd 2020/03/11.14:26:39 P.20131013
-EN work/PlacaMae 1583937104 FL C:/Users/35196/Desktop/Proj1AC/PlacaMae.vhd \
+EN work/PlacaMae 1584091748 FL C:/Users/35196/Desktop/Proj1AC/PlacaMae.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/PlacaMae/Struct 1583937105 \
-      FL C:/Users/35196/Desktop/Proj1AC/PlacaMae.vhd EN work/PlacaMae 1583937104 \
+AR work/PlacaMae/Struct 1584091749 \
+      FL C:/Users/35196/Desktop/Proj1AC/PlacaMae.vhd EN work/PlacaMae 1584091748 \
       CP Processador CP Memoria_Instrucoes CP RAM
 FL C:/Users/35196/Desktop/Proj1AC/Processador.vhd 2020/03/07.10:42:42 P.20131013
-EN work/Processador 1583937098 FL C:/Users/35196/Desktop/Proj1AC/Processador.vhd \
+EN work/Processador 1584091742 FL C:/Users/35196/Desktop/Proj1AC/Processador.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Processador/Struct 1583937099 \
-      FL C:/Users/35196/Desktop/Proj1AC/Processador.vhd EN work/Processador 1583937098 \
+AR work/Processador/Struct 1584091743 \
+      FL C:/Users/35196/Desktop/Proj1AC/Processador.vhd EN work/Processador 1584091742 \
       CP Periferico_Entrada CP Periferico_Saida CP Mux_PC CP ProgramCounter \
       CP Comparacao CP Mux_Registos CP ALU CP RegistosAeB CP ROM_Descodificacao
 FL C:/Users/35196/Desktop/Proj1AC/ProgramCounter.vhd 2020/03/04.17:05:47 P.20131013
-EN work/ProgramCounter 1583937086 \
+EN work/ProgramCounter 1584091730 \
       FL C:/Users/35196/Desktop/Proj1AC/ProgramCounter.vhd PB ieee/std_logic_1164 1381692176 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/ProgramCounter/Behavioral 1583937087 \
-      FL C:/Users/35196/Desktop/Proj1AC/ProgramCounter.vhd EN work/ProgramCounter 1583937086
+AR work/ProgramCounter/Behavioral 1584091731 \
+      FL C:/Users/35196/Desktop/Proj1AC/ProgramCounter.vhd EN work/ProgramCounter 1584091730
 FL C:/Users/35196/Desktop/Proj1AC/RAM.vhd 2020/03/08.12:00:02 P.20131013
-EN work/RAM 1583937102 FL C:/Users/35196/Desktop/Proj1AC/RAM.vhd \
+EN work/RAM 1584091746 FL C:/Users/35196/Desktop/Proj1AC/RAM.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/RAM/Behavioral 1583937103 \
-      FL C:/Users/35196/Desktop/Proj1AC/RAM.vhd EN work/RAM 1583937102
+AR work/RAM/Behavioral 1584091747 \
+      FL C:/Users/35196/Desktop/Proj1AC/RAM.vhd EN work/RAM 1584091746
 FL C:/Users/35196/Desktop/Proj1AC/RegistosA_B.vhd 2020/03/04.16:16:58 P.20131013
-EN work/RegistosAeB 1583937094 FL C:/Users/35196/Desktop/Proj1AC/RegistosA_B.vhd \
+EN work/RegistosAeB 1584091738 FL C:/Users/35196/Desktop/Proj1AC/RegistosA_B.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/RegistosAeB/Behavioral 1583937095 \
-      FL C:/Users/35196/Desktop/Proj1AC/RegistosA_B.vhd EN work/RegistosAeB 1583937094
+AR work/RegistosAeB/Behavioral 1584091739 \
+      FL C:/Users/35196/Desktop/Proj1AC/RegistosA_B.vhd EN work/RegistosAeB 1584091738
 FL C:/Users/35196/Desktop/Proj1AC/ROM_Descodificacao.vhd 2020/03/04.17:05:47 P.20131013
-EN work/ROM_Descodificacao 1583937096 \
+EN work/ROM_Descodificacao 1584091740 \
       FL C:/Users/35196/Desktop/Proj1AC/ROM_Descodificacao.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/ROM_Descodificacao/Behavioral 1583937097 \
+AR work/ROM_Descodificacao/Behavioral 1584091741 \
       FL C:/Users/35196/Desktop/Proj1AC/ROM_Descodificacao.vhd \
-      EN work/ROM_Descodificacao 1583937096
+      EN work/ROM_Descodificacao 1584091740
