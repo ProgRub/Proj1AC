@@ -2,11 +2,6 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
 entity ProgramCounter is
     Port ( Constante : in  STD_LOGIC_VECTOR (7 downto 0);
            ESCR_PC,Clock,Reset : in  STD_LOGIC;
@@ -32,6 +27,4 @@ end if;
 end Process;
 Endereco<=contagem;
 
-
 end Behavioral;
-

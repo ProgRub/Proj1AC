@@ -27,6 +27,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Comparacao.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Comparacao.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Comparacao.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Memoria_Instrucoes_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mux_Registos.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Mux_Registos.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="Mux_Registos.xst"/>
@@ -163,7 +164,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1584206789" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1584206789">
+    <transform xil_pn:end_ts="1584445783" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1584445783">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.vhd"/>
@@ -189,11 +190,11 @@
       <outfile xil_pn:name="TesteRAM.vhd"/>
       <outfile xil_pn:name="Teste_PlacaMae.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1584206590" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7045028208691950670" xil_pn:start_ts="1584206590">
+    <transform xil_pn:end_ts="1584445800" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7045028208691950670" xil_pn:start_ts="1584445800">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1584206590" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6619975488391174356" xil_pn:start_ts="1584206590">
+    <transform xil_pn:end_ts="1584445800" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6619975488391174356" xil_pn:start_ts="1584445800">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -201,7 +202,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1584206789" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1584206789">
+    <transform xil_pn:end_ts="1584445783" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1584445783">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ALU.vhd"/>
@@ -227,7 +228,7 @@
       <outfile xil_pn:name="TesteRAM.vhd"/>
       <outfile xil_pn:name="Teste_PlacaMae.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1584206793" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1412082213506066932" xil_pn:start_ts="1584206789">
+    <transform xil_pn:end_ts="1584445804" xil_pn:in_ck="1266925163440680715" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1412082213506066932" xil_pn:start_ts="1584445800">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -239,7 +240,7 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1584206793" xil_pn:in_ck="3762574968603995435" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5189603743171806759" xil_pn:start_ts="1584206793">
+    <transform xil_pn:end_ts="1584445804" xil_pn:in_ck="8609302711511088466" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5189603743171806759" xil_pn:start_ts="1584445804">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -280,8 +281,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="PlacaMae.lso"/>

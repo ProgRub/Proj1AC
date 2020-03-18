@@ -1,19 +1,10 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
 entity Processador is
     Port ( Pin,Dados_M, Const : in  STD_LOGIC_VECTOR (7 downto 0);
            Clk, Reset, Sel_R : in  STD_LOGIC;
-           Opcode : in  STD_LOGIC_VECTOR (4 downto 0);
+           Opcode : in  STD_LOGIC_VECTOR (4 downto 0); --Algumas saidas sao so para propositos de teste
            Pout, Endereco, Op1,Const_Out, ResulALU, Op2 : out  STD_LOGIC_VECTOR (7 downto 0);
 			  ResComp : out  STD_LOGIC_VECTOR (4 downto 0);
 			  WR : out STD_LOGIC);

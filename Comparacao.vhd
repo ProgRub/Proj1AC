@@ -1,15 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
 entity Comparacao is
     Port ( Comp_Res : in  STD_LOGIC_VECTOR (4 downto 0);
            Comp_Flag : in  STD_LOGIC;
@@ -38,6 +29,4 @@ if rising_edge (Clk)  then
 end if;
 end process;
 
-
 end Behavioral;
-

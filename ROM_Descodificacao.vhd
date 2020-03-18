@@ -1,15 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
 entity ROM_Descodificacao is
     Port ( Opcode : in  STD_LOGIC_VECTOR (4 downto 0);
            Sel_ALU : out  STD_LOGIC_VECTOR (2 downto 0);
@@ -91,10 +82,6 @@ case Opcode is
 	-- NOP
 	when others => Sel_ALU <= "XXX"; Escr_Perif_Saida <= '0'; Sel_Data <= "XX"; 
 	Escr_Registo <= '0';	WR <= '0'; Sel_PC <= "000"; Comp_Flag <='0'; Sel_Comp <= "XXX";
-
 	end case;
 end process;
-
-
 end Behavioral;
-
