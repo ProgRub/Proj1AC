@@ -26,5 +26,4 @@ if rising_edge(Clock) then
 end if;
 end Process;
 Endereco<=contagem;
-
 end Behavioral;

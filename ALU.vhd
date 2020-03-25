@@ -12,7 +12,6 @@ entity ALU is
 end ALU;
 
 architecture Behavioral of ALU is
-
 begin
 	process(Operando1,Operando2,Sel_ALU)
 		begin
@@ -40,5 +39,4 @@ begin
 				when others => Comp_Res <= (others => 'X'); Resultado <= (others => 'X');
 			end case;
 	end process;
-
 end Behavioral;

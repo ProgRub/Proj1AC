@@ -9,9 +9,8 @@ entity RAM is
 end RAM;
 
 architecture Behavioral of RAM is
-Type mem is array(256 downto 0) of STD_LOGIC_VECTOR(7 Downto 0);
+Type mem is array(255 downto 0) of STD_LOGIC_VECTOR(7 Downto 0);
 Signal Memoria : mem := (others=>(others=>'0'));
-
 begin
 process(Clock)
 begin
@@ -22,6 +21,4 @@ if rising_edge(Clock) then
 end if;
 end process;
 Dados_M<=Memoria(to_integer(Unsigned(Address)));
-
 end Behavioral;
-

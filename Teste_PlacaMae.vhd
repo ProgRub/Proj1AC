@@ -85,7 +85,7 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
 		Reset <= '1'; wait for Clk_period*2;
-		Reset <= '0'; Pin <= "00001111"; wait for Clk_period*50;
+		Reset <= '0'; Pin <= "01111110"; wait for Clk_period*50;
 
       -- insert stimulus here 
 

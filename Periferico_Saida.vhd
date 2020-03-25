@@ -16,10 +16,8 @@ begin
 	if rising_edge (CLK) then
 		if (Escr_P = '1') then
 			temp <= Operando1;
-		end if;
-	
+		end if;	
 	end if;
 end process;
 POut <= temp;
-
 end Behavioral;

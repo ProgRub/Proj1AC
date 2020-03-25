@@ -105,4 +105,3 @@ Op2 <= Ope2;
 ResComp <= Resultado_Comparacao;
 
 end Struct;
-

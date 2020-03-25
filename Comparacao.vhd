@@ -28,5 +28,4 @@ if rising_edge (Clk)  then
 		end if;
 end if;
 end process;
-
 end Behavioral;

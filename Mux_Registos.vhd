@@ -13,7 +13,6 @@ end Mux_Registos;
 architecture Behavioral of Mux_Registos is
 signal temp :  STD_LOGIC_VECTOR (7 downto 0);
 begin
-
 process (SEL_Data, Resultado, Dados_IN, Dados_M, Constante)
 begin
 	case SEL_Data is
@@ -21,10 +20,8 @@ begin
 	when "01" => temp <= Dados_IN;
 	when "10" => temp <= Dados_M;
 	when "11" => temp <= Constante;
-	when others => temp <= (others => 'X');
-	
+	when others => temp <= (others => 'X');	
 	end case;
 end process;
 Dados_Reg <= temp;
-
 end Behavioral;

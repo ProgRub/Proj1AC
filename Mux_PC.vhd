@@ -9,7 +9,6 @@ entity Mux_PC is
 end Mux_PC;
 
 architecture Behavioral of Mux_PC is
-
 begin
 	process (S_FLAG, Operando1,SEL_PC)
 		begin
@@ -21,6 +20,5 @@ begin
 				when "100" => ESCR_PC <= not(Operando1(7) or Operando1(6)or Operando1(5)or Operando1(4)or Operando1(3)or Operando1(2)or Operando1(1)or Operando1(0)) ;
 				when others => ESCR_PC <= 'X';
 			end case;
-	end process;
-	
+	end process;	
 end Behavioral;

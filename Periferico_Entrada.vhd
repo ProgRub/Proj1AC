@@ -8,14 +8,11 @@ entity Periferico_Entrada is
 end Periferico_Entrada;
 
 architecture Behavioral of Periferico_Entrada is
-
 begin
 	process (ESCR_P, PIN)
 		begin
 			if (ESCR_P = '0') then
 				Dados_In <= PIN;
-			end if;
-			
-	end process;
-	
+			end if;			
+	end process;	
 end Behavioral;

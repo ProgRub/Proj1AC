@@ -11,7 +11,6 @@ entity RegistosAeB is
 end RegistosAeB;
 
 architecture Behavioral of RegistosAeB is
-
 begin
 	process(ESCR_R, Dados_R, SEL_R,clk)
 		begin
@@ -24,6 +23,5 @@ begin
 					end if;
 				end if;
 			end if;
-	end process;
-						
+	end process;						
 end Behavioral;
